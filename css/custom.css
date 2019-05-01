@@ -1,0 +1,109 @@
+p, li, a { color: #f1f5f7;}
+h2 { color: #ff6319;}
+hr { background-color: #f1f5f7; height: 1px; border: 0; }
+
+.btn-primary {
+	background-color: #ff6319;
+	border-color: #ff6319;
+}
+
+/* HEADER */
+.jumbotron {
+
+  background-image: url("../img/header_back.jpg");
+  background-size: cover;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+.header_text {
+	color: white;
+	padding-top: 5em;
+	font-size: 1.1em;
+}
+
+/* FEATURES SECTION */
+.features {
+
+  background-image: url("../img/features_back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.features ul{
+ 	list-style-image: url('../img/check.png');	
+	padding: 2em 0 0 5em;
+	color: white;	
+}
+
+.features li{
+	margin-bottom: 0.5em;
+	font-size: 1.3em;
+}
+
+.features li .firstword{
+	font-weight: bold;
+}
+
+/* 	CALCULATOR */
+
+.header_calculator {
+	margin: auto;
+	padding-top: 4em;
+	padding-bottom: 2em;
+}
+
+.calculator {
+	width: 100%;
+	background-color: black;
+	height: 200px;
+	color: white;
+}
+
+.content_calculator {
+    width:60%;
+    margin:10px auto;
+    border:2px solid #f00;
+}
+
+/* BANNERS SECTION */
+.banners {
+
+  background-image: url("../img/sports-ftiness-bk.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.banners p {
+	color: white;
+	font-size: 2em;
+}
+
+/* BENEFICIOS SECTION */
+.beneficios {
+
+  background-image: url("../img/beneficios-back.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.beneficios span {
+	font-size: 2em;
+}
+
+.beneficios .icon {
+	text-align: center;
+}
+
+/* FOOTER*/
+
+#footer {
+	text-align: left;
+	padding-top: 5em;
+	padding-bottom: 15em;
+}
+
+#footer ul{
+	list-style: none;
+}
